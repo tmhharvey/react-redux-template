@@ -1,9 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import { Row, Col, Jumbotron } from "reactstrap";
+import PostList from "./PostList";
 const App = () => {
   return (
     <div>
-      <Jumbotron>App</Jumbotron>
+      <Row>
+        <Col sm="12" className="text-center">
+          <h1>Post Lists App</h1>
+        </Col>
+        <Col sm="12" className="text-center">
+          <PostList />
+        </Col>
+      </Row>
     </div>
   );
 };
