@@ -6,7 +6,7 @@ const App = () => {
     <div>
       <Row>
         <Col sm="12" className="text-center">
-          <h1>Post Lists App</h1>
+          <h1>React / Redux Template</h1>
         </Col>
         <Col sm="12" className="text-center">
           <PostList />
